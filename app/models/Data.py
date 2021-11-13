@@ -1,6 +1,7 @@
 from app.db import Base
 from sqlalchemy import Column, Integer, String
 
+
 class Data(Base):
     __tablename__ = 'batch_jobs'
     id = Column(Integer, primary_key=True)
